@@ -1,0 +1,22 @@
+
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Java build directories
+/target/
+/build/
+
+# Eclipse specific
+.project
+.classpath
+.settings/
