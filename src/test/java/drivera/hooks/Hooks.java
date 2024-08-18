@@ -45,8 +45,8 @@ public class Hooks {
 
     @Before("@DB")
     public void connection() throws SQLException {
-        connection = DriverManager.getConnection("jdbc:postgresql://64.227.123.49:5432/prettierhomes",
-                "tech_pro_edu","testingIsFun");
+        connection = DriverManager.getConnection("jdbc:postgresql://64.227.123.49:5432/drivera",
+                "postgres","postgre");
         statement = connection.createStatement();
     }
 
